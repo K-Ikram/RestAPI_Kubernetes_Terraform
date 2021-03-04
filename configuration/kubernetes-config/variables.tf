@@ -9,8 +9,8 @@ variable "app" {
 
 variable "docker-image" {
   type        = string
-  description = "krambk27/rest-tut:test13"
-  default     = "ikrambk27/rest-tut:test13"
+  description = "krambk27/booksapi:1.0.0"
+  default     = "ikrambk27/booksapi:1.0.0"
 }
 
 variable "db" {

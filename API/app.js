@@ -20,14 +20,14 @@ const PORT = 5000;
 const HOST = '0.0.0.0';
 // import routes
 
-const postsRoute = require('./routes/posts')
-app.use('/posts', postsRoute)
+const booksRoute = require('./routes/books')
+app.use('/books', booksRoute)
 
 
 
 // ROUTES
 app.get('/', (req,res) => {
-    res.send('We are on home!');
+    res.send('This is a Restful API for books. Go to /books to get all books :)');
 
 });
 
