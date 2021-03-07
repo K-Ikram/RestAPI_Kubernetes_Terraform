@@ -6,7 +6,7 @@ resource "kubernetes_secret" "db_credentials" {
   data = {
     username = "cm9vdA=="
     password = "bXlkYg=="
-		database = "nodejsdemo"
+		database = "admin"
   
   }
   type = "opaque"
